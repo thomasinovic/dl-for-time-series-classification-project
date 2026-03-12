@@ -1,12 +1,23 @@
 [project]
 name = "dl-for-deeplearning-project"
 version = "0.1.0"
-description = "Add your description here"
+description = "Classification project for deep learning for time series course"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "numpy>=2.4.3",
+    "pandas>=3.0.1",
     "scikit-learn>=1.8.0",
     "torch>=2.10.0",
     "tslearn>=0.8.0",
 ]
+
+[tool.uv]
+package = true
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
