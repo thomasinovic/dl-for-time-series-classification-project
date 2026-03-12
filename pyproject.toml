@@ -5,10 +5,12 @@ description = "Classification project for deep learning for time series course"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "matplotlib>=3.10.8",
     "numpy>=2.4.3",
     "pandas>=3.0.1",
     "scikit-learn>=1.8.0",
     "torch>=2.10.0",
+    "transformers>=5.3.0",
     "tslearn>=0.8.0",
 ]
 
